@@ -1,0 +1,64 @@
+{
+  "body": {
+    "securityContextList": [
+      {
+        "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ilg1ZVhrNHh5b2pORnVtMWtsMll0djhkbE5QNC1jNTdkTzZRR1RWQndhTmsiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3MTgwOTUyNDYsIm5iZiI6MTcxODA5MTY0NiwidmVyIjoiMS4wIiwiaXNzIjoiaHR0cHM6Ly9jb3JwZXh0ZGV2LmIyY2xvZ2luLmNvbS8zNDBmY2M0Yi04ZmQ5LTRkYjktOTExZC0yNjkyM2RhNjAyMzAvdjIuMC8iLCJzdWIiOiI5OWE5NjZjZS1jOGM2LTQ1OWEtYTJiZS1iY2U4YTQxNjdkNjgiLCJhdWQiOiIzMzBjZTlhZi00NjViLTRiNDMtYmZlMy0yYTI3ZDQ2NzQwMWEiLCJpYXQiOjE3MTgwOTE2NDYsImF1dGhfdGltZSI6MTcxODA5MTY0NiwiaWRwIjoiTG9jYWxBY2NvdW50IiwidGZwIjoiQjJDXzFfUk9QQyIsImF0X2hhc2giOiJhQm1HSVZPdmJOUENOTFZBTkVhUjdRIn0.bDilblAmgm9jnz9TOrOn9DK6XTRWETAcKsMI5azwi5Ly5UVNe90XBa93oq-2uhOc4pRUPBy64D_4i-bwM7zXHZqne7XaDaMLc2s7ZWBaCk411cas-KKIi9YL4DLEkzsm1Sispg245B5r4BULN1d363fQa500YXNUuBfFCfLJu4a1zci4SokB9PkuZZE229VkzAdZelyeMq4wqC4CM_0N3Yit3aufRp-SFpNj9A0J5Twu25SIg9QVumXJbEbR9eVsLumGd0ESHAUHetuqP04uEaqEHkFozEUnD2ZDS6rMLUv7fOTi3SRK2asghAkG5cJGKuBR3CQkMWrjb5LNyUFEag"
+      }
+    ]
+  },
+  "headers": {
+    "server": "nginx/1.24.0",
+    "date": "Tue, 11 Jun 2024 07:40:47 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Access-Control-Allow-Origin,Access-Control-Allow-Credentials",
+    "x-upstream": "10.16.70.208:8080"
+  },
+  "status": 201,
+  "statusText": "Created",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate",
+    "content-type": "application/json",
+    "content-length": 72
+  },
+  "requestBody": "{\"username\":\"tranetistest+Superadmin@gmail.com\",\"password\":\"QWEqwe-123\"}",
+  "duration": 1668,
+  "allRequestResponses": [
+    {
+      "Request Body": "{\"username\":\"tranetistest+Superadmin@gmail.com\",\"password\":\"QWEqwe-123\"}",
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate",
+        "content-type": "application/json",
+        "content-length": 72
+      },
+      "Request URL": "https://api.tis-dev.trane.com/tis-security-context/securityContext",
+      "Response Body": {
+        "securityContextList": [
+          {
+            "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ilg1ZVhrNHh5b2pORnVtMWtsMll0djhkbE5QNC1jNTdkTzZRR1RWQndhTmsiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3MTgwOTUyNDYsIm5iZiI6MTcxODA5MTY0NiwidmVyIjoiMS4wIiwiaXNzIjoiaHR0cHM6Ly9jb3JwZXh0ZGV2LmIyY2xvZ2luLmNvbS8zNDBmY2M0Yi04ZmQ5LTRkYjktOTExZC0yNjkyM2RhNjAyMzAvdjIuMC8iLCJzdWIiOiI5OWE5NjZjZS1jOGM2LTQ1OWEtYTJiZS1iY2U4YTQxNjdkNjgiLCJhdWQiOiIzMzBjZTlhZi00NjViLTRiNDMtYmZlMy0yYTI3ZDQ2NzQwMWEiLCJpYXQiOjE3MTgwOTE2NDYsImF1dGhfdGltZSI6MTcxODA5MTY0NiwiaWRwIjoiTG9jYWxBY2NvdW50IiwidGZwIjoiQjJDXzFfUk9QQyIsImF0X2hhc2giOiJhQm1HSVZPdmJOUENOTFZBTkVhUjdRIn0.bDilblAmgm9jnz9TOrOn9DK6XTRWETAcKsMI5azwi5Ly5UVNe90XBa93oq-2uhOc4pRUPBy64D_4i-bwM7zXHZqne7XaDaMLc2s7ZWBaCk411cas-KKIi9YL4DLEkzsm1Sispg245B5r4BULN1d363fQa500YXNUuBfFCfLJu4a1zci4SokB9PkuZZE229VkzAdZelyeMq4wqC4CM_0N3Yit3aufRp-SFpNj9A0J5Twu25SIg9QVumXJbEbR9eVsLumGd0ESHAUHetuqP04uEaqEHkFozEUnD2ZDS6rMLUv7fOTi3SRK2asghAkG5cJGKuBR3CQkMWrjb5LNyUFEag"
+          }
+        ]
+      },
+      "Response Headers": {
+        "server": "nginx/1.24.0",
+        "date": "Tue, 11 Jun 2024 07:40:47 GMT",
+        "content-type": "application/json;charset=UTF-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Access-Control-Allow-Origin,Access-Control-Allow-Credentials",
+        "x-upstream": "10.16.70.208:8080"
+      },
+      "Response Status": 201
+    }
+  ]
+}
