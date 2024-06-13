@@ -115,7 +115,7 @@ describe('Automation - API Automation - GET. PUT, POST and Delete Methods', func
       expect(response.body.support.url).equal("https://reqres.in/#support-heading");
 
       expect(response.body.data.id).equal(2)
-      expect(response.body.data.email).equal("janet.weaver@reqres.in")
+      expect(response.body.email).equal("janet.weaver@reqres.in")
     })
 
   })

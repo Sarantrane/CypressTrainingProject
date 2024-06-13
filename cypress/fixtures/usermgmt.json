@@ -1,5 +1,95 @@
 {
-  "name": "Using fixtures to represent data",
-  "email": "hello@cypress.io",
-  "body": "Fixtures are a great way to mock data for responses to routes"
+    "username": "tranetistest+devtest12@gmail.com",
+    "firstName": "dev",
+    "lastName": "test",
+    "email": "tranetistest+devtest12@gmail.com",
+    "secondaryEmail": "tranetistest+devtestsec@gmail.com",
+    "organizationIds": [],
+    "locationIds": [
+        224178,
+        354,
+        54771,
+        195142,
+        179924,
+        221380,
+        144410,
+        2122,
+        2890,
+        145065,
+        209640
+    ],
+    "salesOfficeIds": [
+        343,
+        375,
+        376,
+        12
+    ],
+    "roles": [
+        "GeneralUser",
+        "Technician",
+        "SuperAdmin",
+        "RemoteAccess",
+        "TechSupport",
+        "TCC4",
+        "TCC_Technician",
+        "Ensemble-Administrator",
+        "RC-Technician",
+        "RC_DB_ADMIN",
+        "RC_ADMIN",
+        "ServiceCompanyAdmin",
+        "CustomerAssetsTechnician",
+        "AnalyticsTechnician",
+        "OfferingManager"
+    ],
+    "adminOrganizationIds": [
+        303156,
+        462853,
+        465156,
+        9223,
+        6872,
+        500795,
+        500811,
+        8781
+    ],
+    "adminLocationIds": [
+        5493
+    ],
+    "adminSalesOfficeIds": [
+        343,
+        375,
+        376,
+        12
+    ],
+    "adminRoles": [
+        "GeneralUser",
+        "Technician",
+        "SuperAdmin",
+        "RemoteAccess",
+        "TechSupport",
+        "TCC4",
+        "CustomerTechnician"
+    ],
+    "superAdminOrganizationIds": [
+        303156,
+        9223,
+        6872,
+        8781
+    ],
+    "superAdminLocationIds": [
+        5493
+    ],
+    "superAdminSalesOfficeIds": [
+        343,
+        375,
+        376,
+        12
+    ],
+    "superAdminRoles": [
+        "GeneralUser",
+        "Technician",
+        "SuperAdmin",
+        "RemoteAccess",
+        "TCC4",
+        "CustomerTechnician"
+    ]
 }

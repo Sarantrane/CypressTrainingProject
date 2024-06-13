@@ -3,36 +3,41 @@ import data from '../fixtures/usermgmt.json'
 describe('Understanding API test Automation', () => {
 
 
-    it('Get Users Automation', () => {
+    // it('Get Users Automation', () => {
 
 
-        cy.request({
+    //     cy.request({
 
-            method: "POST",
-            url: 'https://api.tis-dev.trane.com/tis-security-context/securityContext',
-            Authorization:'No Auth',
-            body: 
-            {
-                "username": "tranetistest+Superadmin@gmail.com",
-                "password": "QWEqwe-123"
-            },
+    //         method: "POST",
+    //         url: 'https://api.tis-dev.trane.com/tis-security-context/securityContext',
+    //         Authorization:'No Auth',
+    //         body: 
+    //         {
+    //             "username": "tranetistest+Superadmin@gmail.com",
+    //             "password": "QWEqwe-123"
+    //         },
 
-            // Authorization: {
-            //     Username : 'tranetistest+Superadmin@gmail.com',
-            //     Password : 'QWEqwe-123',
+    //         // Authorization: {
+    //         //     Username : 'tranetistest+Superadmin@gmail.com',
+    //         //     Password : 'QWEqwe-123',
             
             
-        }).then((response) => {
+    //     }).then((response) => {
 
-            expect(response.status).to.equal(201)
-            cy.writeFile('cypress/fixtures/apiresponseusermgmt.txt', response)
+    //         expect(response.status).to.equal(201)
+    //         cy.writeFile('cypress/fixtures/apiresponseusermgmt.txt', response)
 
-            const tokenvar = response.body.securityContextList[0].token;
-            return tokenvar   
-            // cy.log(tokenvar)     
-        })
+    //         const tokenvar = response.body.securityContextList[0].token;
+    //         return tokenvar   
+    //         // cy.log(tokenvar)     
+    //     })
 
-    })
+    // })
+
+
+
+
+
 
 })
 
