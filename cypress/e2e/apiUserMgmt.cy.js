@@ -17,9 +17,10 @@ describe('Understanding API test Automation', () => {
                 "password": "QWEqwe-123"
             },
 
-            // Authorization: {
-            //     Username : 'tranetistest+Superadmin@gmail.com',
-            //     Password : 'QWEqwe-123',
+            Authorization: {
+              Username : 'tranetistest+Superadmin@gmail.com',
+              Password : 'QWEqwe-123',
+            },
             
             
         }).then((response) => {
